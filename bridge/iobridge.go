@@ -3,7 +3,7 @@ package bridge
 import (
 	"net"
 	"log"
-	"github.com/crabkun/switcher/core"
+	"../core"
 )
 
 func IOBridge(A net.Conn,B net.Conn){
